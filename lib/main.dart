@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prezzmarket/menu.dart';
+import 'package:prezzmarket/screens/menu.dart';
 void main() {
   runApp(const MyApp());
 }
