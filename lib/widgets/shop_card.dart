@@ -1,6 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:prezzmarket/screens/prezzmarket_form.dart';
 
+class ShopItem {
+  final String name;
+  final IconData icon;
+  final Color color;
+
+  ShopItem(this.name, this.icon,this.color);
+}
+
+class Item {
+  String name = "";
+  int amount = 0;
+  String description = "";
+
+  Item (this.name, this.amount, this.description);
+}
+
+
 class ShopCard extends StatelessWidget {
   final ShopItem item;
 
@@ -54,10 +71,3 @@ class ShopCard extends StatelessWidget {
   }
 }
 
-class ShopItem {
-  final String name;
-  final IconData icon;
-  final Color color;
-
-  ShopItem(this.name, this.icon,this.color);
-}
