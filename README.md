@@ -320,8 +320,8 @@
     ```
     
   - Tampilkan name, amount, dan description dari masing-masing item pada halaman ini.
-    pada lib/models buka file list_item.dart dan tambahkan kode berikut
-        ```
+    - pada lib/models buka file list_item.dart dan tambahkan kode berikut
+      ```
         ...
         @override
         Widget build(BuildContext context) {
@@ -388,7 +388,7 @@
                         }
                     }));
         }
-        ```
+      ```
 
 - Membuat halaman detail untuk setiap item yang terdapat pada halaman daftar Item. 
   - Halaman ini dapat diakses dengan menekan salah satu item pada halaman daftar Item.
